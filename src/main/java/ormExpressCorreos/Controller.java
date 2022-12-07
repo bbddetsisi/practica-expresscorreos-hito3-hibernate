@@ -1,8 +1,7 @@
 package ormExpressCorreos;
 
-import ormExpressCorreos.model.Usuario_generico;
-import ormExpressCorreos.model.Usuario_identificado;
-import ormExpressCorreos.model.Direccion;
+import ormExpressCorreos.model.UsuarioGenerico;
+import ormExpressCorreos.model.UsuarioIdentificado;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -11,7 +10,6 @@ import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 import java.sql.*;
-
 
 /**
  * Controlador de la aplicación. Por favor, revise detenidamente la clase y complete las partes omitidas
@@ -45,17 +43,17 @@ public class Controller {
      * @return el nuevo usuario creado
      * @throws SQLException
      */
-    public Usuario_generico createUsuarioGenerico(Long id, String nombre, String apellidos, ...) throws SQLException{
+    public UsuarioGenerico createUsuarioGenerico(Long id, String nombre, String apellidos, ...) throws SQLException{
         // @TODO completa este metodo para crear de forma presistente un usuario genérico
 
     }
 
-    public Usuario_identificado createUsuarioIdentificado(String DNI, String nombre, String apellidos, String email, ...) throws SQLException {
+    public UsuarioIdentificado createUsuarioIdentificado(String DNI, String nombre, String apellidos, String email, ...) throws SQLException {
         // @TODO completa este metodo para crear de forma presistente un usuario identificado
 
     }
 
-    public Usuario_identificado createDireccion(Int numero, Int piso, String letra, String portal, ...) throws SQLException {
+    public UsuarioIdentificado createDireccion(Integer numero, Integer piso, String letra, String portal, ...) throws SQLException {
         // @TODO completa este metodo para crear de forma presistente una direccion
 
     }

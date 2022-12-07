@@ -26,8 +26,8 @@
 
         <property name="hibernate.hbm2ddl.auto">update</property>
 
-        <mapping class="ormExpressCorreos.model.Usuario_generico"/>
-        <mapping class="ormExpressCorreos.model.Usuario_identificado"/>
+        <mapping class="ormExpressCorreos.model.UsuarioGenerico"/>
+        <mapping class="ormExpressCorreos.model.UsuarioIdentificado"/>
         <!--Añada tantas clases como entidades tenga en su modelo-->
         <!--Las clases deben crearse en el paquete "model"-->
     </session-factory>
